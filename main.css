@@ -20,8 +20,8 @@ nav {
 
   height: 100vh;
   position: fixed;
-  overflow: scroll;
   width: 250px;
+  overflow-y: auto;
 }
 nav a {
   text-decoration: none;
@@ -62,7 +62,18 @@ nav a:hover {
   color: #757575;
   font-weight: bold;
 }
+.menu-item-toggle {
+  height: 45px;
+  overflow-y: hidden;
+}
 
+.menu-item-toggle a {
+  color: black !important;
+}
+
+.menu-item-toggle:hover {
+  height: 100%;
+}
 .nav__footer {
   display: flex;
   flex-direction: column;
