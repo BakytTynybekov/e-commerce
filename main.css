@@ -78,3 +78,35 @@ nav a:hover {
   display: flex;
   flex-direction: column;
 }
+
+main {
+  margin-left: 250px;
+  padding: 0 16px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+  font-size: 24px;
+}
+
+header h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+header img {
+  width: 22px;
+  height: 24px;
+}
+.shop-icon {
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+.search-icon {
+  position: relative;
+  cursor: pointer;
+}
