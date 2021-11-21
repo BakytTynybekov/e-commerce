@@ -62,16 +62,16 @@ nav a:hover {
   color: #757575;
   font-weight: bold;
 }
-.menu-item-toggle {
+.nav__menu-item-toggle {
   height: 45px;
   overflow-y: hidden;
 }
 
-.menu-item-toggle a {
+.nav__menu-item-toggle a {
   color: black !important;
 }
 
-.menu-item-toggle:hover {
+.nav__menu-item-toggle:hover {
   height: 100%;
 }
 .nav__footer {
