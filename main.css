@@ -110,3 +110,71 @@ header img {
   position: relative;
   cursor: pointer;
 }
+
+.contacts {
+  display: flex;
+  text-align: center;
+  line-height: 25px;
+  justify-content: space-evenly;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 40px;
+}
+
+.about ul li {
+  list-style: none;
+  color: gray;
+}
+ul {
+  padding-left: 0;
+}
+a {
+  color: rgb(65, 61, 61);
+}
+
+.store {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.about {
+  line-height: 28px;
+}
+
+.sites {
+  margin-top: 15px;
+}
+
+input {
+  padding: 5px;
+  width: 270px;
+}
+
+.button {
+  width: 285px;
+  background-color: black;
+  color: white;
+}
+h3 {
+  font-weight: unset;
+}
+
+.contact {
+  font-size: 15px;
+}
+footer {
+  width: 100%;
+  border: 1px solid black;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+footer a {
+  margin-left: 3px;
+  color: white;
+}
