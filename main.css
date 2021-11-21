@@ -12,12 +12,10 @@ body {
 .container {
   max-width: 1200px;
   margin: auto;
-  height: 100vh;
 }
 
 nav {
   display: grid;
-
   height: 100vh;
   position: fixed;
   width: 250px;
@@ -30,7 +28,6 @@ nav a {
   display: block;
   padding: 8px 16px;
   text-align: left;
-  white-space: normal;
   font-family: "Roboto", sans-serif;
 }
 .logo h1 {
