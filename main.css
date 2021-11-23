@@ -119,6 +119,9 @@ header img {
     background-color: white;
     z-index: 2;
   }
+  .active {
+    display: grid;
+  }
   main {
     margin-left: 0;
   }
