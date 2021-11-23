@@ -80,6 +80,10 @@ main {
   margin-left: 250px;
   padding: 0 16px;
 }
+
+.header-upper {
+  display: none;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -106,4 +110,53 @@ header img {
 .search-icon {
   position: relative;
   cursor: pointer;
+}
+
+@media screen and (max-width: 993px) {
+ 
+  nav {
+    display: none;
+    background-color: white;
+    z-index: 2;
+  }
+  main {
+    margin-left: 0;
+  }
+  .header-upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+  }
+  .hamburger {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 16px;
+    right: 0;
+    cursor: pointer;
+    
+
+  }
+
+  .hamburger:hover {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: rgb(167, 164, 164);
+    height: 100%;
+    padding: 16px;
+    right: 0;
+  }
+  .hamburger img {
+    width: 40px;
+  }
+ 
+
 }
