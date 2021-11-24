@@ -241,10 +241,12 @@ header img {
  
   /* Products */
 
+    .flex-container {
+        display: flex;
+    }
+
     .products {
-        float: left;
-        width: 45%;
-        margin: 6px;
+        flex: 1;
     }
 
 }
