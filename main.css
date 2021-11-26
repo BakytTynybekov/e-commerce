@@ -12,12 +12,10 @@ body {
 .container {
   max-width: 1200px;
   margin: auto;
-  height: 100vh;
 }
 
 nav {
   display: grid;
-
   height: 100vh;
   position: fixed;
   width: 250px;
@@ -30,7 +28,6 @@ nav a {
   display: block;
   padding: 8px 16px;
   text-align: left;
-  white-space: normal;
   font-family: "Roboto", sans-serif;
 }
 .logo h1 {
@@ -62,16 +59,16 @@ nav a:hover {
   color: #757575;
   font-weight: bold;
 }
-.menu-item-toggle {
+.nav__menu-item-toggle {
   height: 45px;
   overflow-y: hidden;
 }
 
-.menu-item-toggle a {
+.nav__menu-item-toggle a {
   color: black !important;
 }
 
-.menu-item-toggle:hover {
+.nav__menu-item-toggle:hover {
   height: 100%;
 }
 .nav__footer {
@@ -82,6 +79,11 @@ nav a:hover {
 main {
   margin-left: 250px;
   padding: 0 16px;
+}
+
+.header-upper {
+  display: none;
+  position: fixed;
 }
 header {
   display: flex;
@@ -227,6 +229,56 @@ filter: invert(100%);
   
   filter: invert(100%);
   
+}
+
+
+
+@media screen and (max-width: 993px) {
+  nav {
+    display: none;
+    background-color: white;
+    z-index: 2;
+  }
+  .active {
+    display: grid;
+  }
+  main {
+    margin-left: 0;
+  }
+  .header-upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+  .hamburger {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    right: 0;
+    cursor: pointer;
+  }
+
+  .hamburger:hover {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: rgb(167, 164, 164);
+    height: 100%;
+    padding: 16px;
+  }
+  .hamburger img {
+    width: 40px;
+  }
+
+  /* Products */
 }
 @media (min-width: 990px) {
   
