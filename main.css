@@ -328,6 +328,14 @@ img {
     position: fixed;
     background-color: white;
   }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .subscribe {
+    margin-left: 0;
+  }
 
   /* Products */
 }
