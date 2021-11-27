@@ -142,9 +142,7 @@ header img {
   left: 30px;
   color: white;
 }
-.items {
-  grid-template-columns: repeat(4, 1fr);
-}
+
 .title-name {
   font-size: 70px;
   margin: 0px;
@@ -179,7 +177,7 @@ img {
 .items {
   padding-left: 0px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-row: auto;
   grid-gap: 2em;
 }
