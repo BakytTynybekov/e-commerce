@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Roboto"
@@ -18,43 +17,31 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <title>e-commerce</title>
+    <title>Document</title>
   </head>
   <body>
     <div class="container">
-      <nav class="nav">
+      <nav>
         <div class="logo">
           <h1>Seytech</h1>
         </div>
 
         <div class="nav__inner">
           <ul class="nav__menu">
-            <li class="nav__menu-item">
-              <a href="" class="nav__menu-link">Shirts</a>
-            </li>
-            <li class="nav__menu-item">
-              <a href="" class="nav__menu-link">Dresses</a>
-            </li>
-            <li class="nav__menu-item nav__menu-item-toggle">
-              <a href="" class="nav__menu-link">Jeans &#9660;</a>
+            <li class="menu-item"><a href="" class="menu-link">Shirts</a></li>
+            <li class="menu-item"><a href="" class="menu-link">Dresses</a></li>
+            <li class="menu-item menu-item-toggle">
+              <a href="" class="menu-link">Jeans &#9660;</a>
               <ul>
                 <li><a href="">Relaxed</a></li>
                 <li><a href="">Bootcut</a></li>
                 <li><a href="">Straight</a></li>
               </ul>
             </li>
-            <li class="nav__menu-item">
-              <a href="" class="nav__menu-link">Jackets</a>
-            </li>
-            <li class="nav__menu-item">
-              <a href="" class="nav__menu-link">Gymwear</a>
-            </li>
-            <li class="nav__menu-item">
-              <a href="" class="nav__menu-link">Blazers</a>
-            </li>
-            <li class="nav__menu-item">
-              <a href="" class="nav__menu-link">Shoes</a>
-            </li>
+            <li class="menu-item"><a href="" class="menu-link">Jackets</a></li>
+            <li class="menu-item"><a href="" class="menu-link">Gymwear</a></li>
+            <li class="menu-item"><a href="" class="menu-link">Blazers</a></li>
+            <li class="menu-item"><a href="" class="menu-link">Shoes</a></li>
           </ul>
         </div>
 
@@ -64,15 +51,7 @@
           <a href="#">Subscribe</a>
         </div>
       </nav>
-      <header class="header-upper">
-        <h2>LOGO</h2>
-        <a class="hamburger">
-          <img
-            src="https://www.pinclipart.com/picdir/big/532-5328945_menu-bar-icon-white-clipart-png-download-menu.png"
-            alt=""
-          />
-        </a>
-      </header>
+
       <main>
         <header>
           <h2>Jeans</h2>
@@ -84,10 +63,91 @@
               ><img src="./images/search-icon.svg" alt=""
             /></i>
           </div>
+          
         </header>
+
+        <!-- section products -->
+
+
+        <section class="products">
+          <div class="products__showcase">
+          <div class="bg-img"></div>
+          <div class="showcase-title">
+          <h2 class="title-name">New arrivals</h2>
+          <h3 class="title-collection">COLLECTION 2016</h3>
+          <a href="#products__items" class="shop-now-btn">SHOP NOW </a>
+        </div>
+      </div>
+
+        <div id="products__items">
+          <p>8 items</p>
+     <ul class="items">
+      <li class="items-cards"> 
+<img class="items-img" src="https://learn.seytech.co/assets/projects/html-css/projects/8-e-commerce/assets/jeans1.jpg" alt="">
+<p>Ripped Skiny Jeans</p>
+<h4>$24.99</h4>
+      </li>
+      <li class="items-cards"> 
+        <div class="cards-detail">
+          <div class="new-item">New</div>
+          <div>
+            <a class="buy-now-icon" href="">Buy now <i><img src="./images/shopping-icon.svg" alt=""></i></a>
+          </div>
+         <img class="items-img" src="https://learn.seytech.co/assets/projects/html-css/projects/8-e-commerce/assets/jeans2.jpg" alt="">
+         </div>
+         <p>Mega Ripped Jeans</p>
+         <h4>$19.99</h4>
+                </li>
+              
+
+              <li class="items-cards"> 
+                
+            
+               <img class="items-img" src="https://learn.seytech.co/assets/projects/html-css/projects/8-e-commerce/assets/jeans3.jpg" alt="">
+               <p>Washed Skinny</p>
+               <h4>$20.50</h4>
+                      </li>
+
+              <li class="items-cards"> 
+               <img class="items-img" src="https://learn.seytech.co/assets/projects/html-css/projects/8-e-commerce/assets/jeans4.jpg" alt="">
+               <p>Vintage Skinny</p>
+               <h4>$20.50</h4>
+                      </li>
+                      <li class="items-cards"> 
+                       <img class="items-img" src="https://learn.seytech.co/assets/projects/html-css/projects/8-e-commerce/assets/jeans2.jpg" alt="">
+                       <p>Mega Ripped Jeans</p>
+                       <h4>$19.99</h4>
+                              </li>
+                               
+                              <li class="items-cards"> 
+                
+            
+                                <img class="items-img" src="https://learn.seytech.co/assets/projects/html-css/projects/8-e-commerce/assets/jeans3.jpg" alt="">
+                                <p>Washed Skinny</p>
+                                <h4>$20.50</h4>
+                                       </li>
+                      <li class="items-cards"> 
+                        <div class="cards-detail">
+                          <div class="new-item">Sale</div>
+        <div>
+          <a class="buy-now-icon" href="">Buy now <i><img src="./images/shopping-icon.svg" alt=""></i></a>
+        </div>
+                       <img class="items-img" src="https://learn.seytech.co/assets/projects/html-css/projects/8-e-commerce/assets/jeans4.jpg" alt="">
+                       </div>
+                       <p>Vintage Skinny</p>
+                       <h4>$20.50</h4>
+                                      </li>
+  <li class="cards"> 
+                               <img class="items-img" src="https://learn.seytech.co/assets/projects/html-css/projects/8-e-commerce/assets/jeans1.jpg" alt="">
+                               <p>Ripped Skiny Jeans</p>
+                               <h4>$24.99</h4>
+                                      </li>
+    </ul>
+
+        </div>
+        
+        </section>
       </main>
     </div>
-
-    <script src="./script.js"></script>
   </body>
 </html>

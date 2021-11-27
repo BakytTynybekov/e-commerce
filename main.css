@@ -112,6 +112,126 @@ header img {
   position: relative;
   cursor: pointer;
 }
+/* section products */
+.products__showcase{
+  height: 650px;
+  position: relative;
+
+}
+.bg-img{
+  background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/8-e-commerce/assets/jeans.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+
+}
+.showcase-title{
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  color: white;
+  
+ 
+}
+.title-name{
+  font-size: 70px;
+margin: 0px;
+
+}
+.title-collection{
+  font-size: 40px;
+  margin: 0px;
+  padding-bottom: 1em;
+}
+.shop-now-btn{
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  padding: 1em 2em;
+}
+.shop-now-btn:hover{
+  color: black;
+  background-color: gainsboro;
+
+}
+img{
+  width: 100%;
+ 
+}
+#products__items{
+ color: gainsboro;
+}
+#products__items ul{
+list-style: none;
+color: black;
+}
+.items{
+padding-left: 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row: auto;
+  grid-gap: 2em;
+}
+#products__items .items p{
+  margin-bottom: 0px;
+}
+#products__items h4{
+  margin-bottom: 0px;
+  margin-top: 0px;
+} 
+.cards-detail{
+ 
+position: relative;
+}
+.cards-detail:hover .buy-now-icon{
+display: block;
+
+}
+.items-cards{
+  filter: grayscale(70%);
+}
+.new-item{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 1px black;
+  background-color: black;
+  color: white;
+  padding: 0 5px;
+}
+.buy-now-icon{
+  display: none;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+ text-decoration: none;
+ background-color: black;
+width: 115px;
+height: 40px;
+color: white;
+font-size: 15px;
+text-align: center;
+padding-top: 10px;
+
+  
+}
+.buy-now-icon img{
+  height: 15px;
+  width: 15px;
+filter: invert(100%);
+}
+.buy-now-icon:hover{
+  background-color: black;
+  
+  filter: invert(100%);
+  
+}
+
+
 
 @media screen and (max-width: 993px) {
   nav {
@@ -159,4 +279,13 @@ header img {
   }
 
   /* Products */
+}
+@media (min-width: 990px) {
+  
+  #products__items .items{
+    
+ 
+    grid-template-columns: repeat(4, 1fr);
+    
+  }
 }
