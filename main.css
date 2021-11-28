@@ -166,13 +166,11 @@ header img {
 }
 img {
   width: 100%;
-}
-#products__items {
-  color: gainsboro;
+
 }
 #products__items ul {
   list-style: none;
-  color: black;
+  
 }
 .items {
   padding-left: 0px;
@@ -181,11 +179,23 @@ img {
   grid-row: auto;
   grid-gap: 2em;
 }
+#products__items .wiered-color{
+  font-size: 15px;
+  color: #757575;
+}
 #products__items .items p {
+  font-size: 15px;
+ 
   margin-bottom: 0px;
+color: black;
+}
+#products__items .items a{
+  text-decoration: none;
+  
 }
 #products__items h4 {
-  margin-bottom: 0px;
+  font-size: 15px;
+  margin-bottom: -10px;
   margin-top: 0px;
 }
 .cards-detail {
@@ -244,6 +254,7 @@ img {
   font-family: "Montserrat";
   font-size: 15px;
   margin-bottom: 16px;
+  margin-top: 30px;
 }
 .subscribe h2 {
   font-size: 36px;
