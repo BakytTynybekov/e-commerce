@@ -166,11 +166,9 @@ header img {
 }
 img {
   width: 100%;
-
 }
 #products__items ul {
   list-style: none;
-  
 }
 .items {
   padding-left: 0px;
@@ -179,19 +177,18 @@ img {
   grid-row: auto;
   grid-gap: 2em;
 }
-#products__items .wiered-color{
+#products__items .wiered-color {
   font-size: 15px;
   color: #757575;
 }
 #products__items .items p {
   font-size: 15px;
- 
+
   margin-bottom: 0px;
-color: black;
+  color: black;
 }
-#products__items .items a{
+#products__items .items a {
   text-decoration: none;
-  
 }
 #products__items h4 {
   font-size: 15px;
