@@ -250,7 +250,7 @@ img {
   padding: 32px 16px;
   font-family: "Montserrat";
   font-size: 15px;
-  margin-bottom: 16px;
+  margin-bottom: 0;
   margin-top: 30px;
 }
 .subscribe h2 {
@@ -285,7 +285,7 @@ img {
 
 .contacts {
   max-width: 1200px;
-  height: 700px;
+  height: 470px;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -293,8 +293,9 @@ img {
   justify-content: space-evenly;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-bottom: 0;
+  margin-left: 250px;
   padding-top: 50px;
-  padding-left: 120px;
+  background-color: whitesmoke;
 }
 
 .be {
@@ -363,6 +364,10 @@ footer {
 footer a {
   margin-left: 3px;
   color: white;
+}
+
+.back {
+  background-color: azure;
 }
 
 @media screen and (max-width: 993px) {
