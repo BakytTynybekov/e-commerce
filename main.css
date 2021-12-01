@@ -296,7 +296,6 @@ img {
   margin-bottom: 0;
   margin-left: 250px;
   padding-top: 50px;
-
   background-color: whitesmoke;
 }
 
@@ -437,6 +436,10 @@ footer a {
     margin-left: 0;
   }
 
+  .contacts {
+    margin-left: 0;
+  }
+
   /* Products */
 }
 @media screen and (max-width: 600px) {
@@ -452,5 +455,12 @@ footer a {
     display: inline-block;
     margin: 15px;
     box-sizing: border-box;
+  }
+  input {
+    padding: 5px;
+    width: 100px;
+  }
+  .button {
+    width: 100px;
   }
 }
