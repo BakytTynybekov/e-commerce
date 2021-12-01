@@ -287,6 +287,7 @@ img {
   max-width: 1200px;
   height: 470px;
   display: flex;
+  align-content: flex-start;
   flex-wrap: wrap;
   text-align: center;
   line-height: 25px;
@@ -295,6 +296,7 @@ img {
   margin-bottom: 0;
   margin-left: 250px;
   padding-top: 50px;
+
   background-color: whitesmoke;
 }
 
@@ -304,7 +306,6 @@ img {
 
 .son {
   width: 100%;
-  padding-left: 130px;
 }
 
 .about ul li {
@@ -333,13 +334,17 @@ a {
   margin-top: 15px;
 }
 
+.opa:hover {
+  opacity: 0.4;
+}
+
 input {
   padding: 5px;
   width: 270px;
 }
 
 .button {
-  width: 285px;
+  width: 270px;
   background-color: black;
   color: white;
 }
