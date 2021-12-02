@@ -284,16 +284,13 @@ img {
 }
 
 .contacts {
-  max-width: 1200px;
-  height: 470px;
   display: flex;
   align-content: flex-start;
   flex-wrap: wrap;
   text-align: center;
-  line-height: 25px;
+  line-height: 23px;
   justify-content: space-evenly;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
   margin-left: 250px;
   padding-top: 50px;
   background-color: whitesmoke;
@@ -310,6 +307,7 @@ img {
 .about ul li {
   list-style: none;
   color: gray;
+  font-size: 12px;
 }
 ul {
   padding-left: 0;
@@ -322,7 +320,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 12px;
 }
 
 .about {
@@ -338,7 +336,7 @@ a {
 }
 
 input {
-  padding: 5px;
+  padding: 7px 5px;
   width: 270px;
 }
 
@@ -349,12 +347,14 @@ input {
 }
 h3 {
   font-weight: unset;
+  font-size: 18px;
 }
 
 .contact {
-  font-size: 15px;
+  font-size: 12px;
+  margin-bottom: 15px;
 }
-footer {
+.footer {
   width: 100%;
   border: 1px solid black;
   height: 80px;
@@ -364,8 +364,10 @@ footer {
   justify-content: center;
   background-color: black;
   color: white;
+  margin-top: 50px;
+  margin-bottom: 0;
 }
-footer a {
+.footer a {
   margin-left: 3px;
   color: white;
 }
