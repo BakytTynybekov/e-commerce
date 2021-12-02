@@ -288,13 +288,12 @@ img {
   align-content: flex-start;
   flex-wrap: wrap;
   text-align: center;
-  line-height: 27px;
+  line-height: 23px;
   justify-content: space-evenly;
   font-family: "Montserrat", sans-serif;
   margin-left: 250px;
   padding-top: 50px;
   background-color: whitesmoke;
-  letter-spacing: 1px;
 }
 
 .be {
@@ -308,7 +307,7 @@ img {
 .about ul li {
   list-style: none;
   color: gray;
-  font-size: 14px;
+  font-size: 12px;
 }
 ul {
   padding-left: 0;
@@ -321,7 +320,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .about {
@@ -337,7 +336,7 @@ a {
 }
 
 input {
-  padding: 5px;
+  padding: 7px 5px;
   width: 270px;
 }
 
@@ -352,7 +351,7 @@ h3 {
 }
 
 .contact {
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 15px;
 }
 .footer {
@@ -365,6 +364,7 @@ h3 {
   justify-content: center;
   background-color: black;
   color: white;
+  margin-top: 50px;
 }
 .footer a {
   margin-left: 3px;
